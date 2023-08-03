@@ -1,3 +1,4 @@
+import { HomeIcon } from '@acme/feature-home';
 import { Pressable, Text, View } from "@bacons/react-views";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { Link, useSearchParams } from "expo-router";
@@ -229,6 +230,7 @@ function ListEmptyComponent() {
         alignItems: "center",
       }}
     >
+      <HomeIcon />
       <Text style={{ fontSize: 16, textAlign: "center" }}>{message}</Text>
     </View>
   );
